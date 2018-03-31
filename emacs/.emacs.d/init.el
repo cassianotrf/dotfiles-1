@@ -8,7 +8,7 @@
     ("1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e")))
  '(package-selected-packages
    (quote
-    (evil fill-column-indicator column-marker emmet-mode magithub magit ruby-end toggle-quotes neotree flycheck rubocop which-key web-mode use-package undo-tree try projectile-rails org-bullets counsel-projectile color-theme-sanityinc-tomorrow auto-complete ace-window))))
+    (counsel ivy projectile evil fill-column-indicator column-marker emmet-mode magithub magit ruby-end toggle-quotes neotree flycheck rubocop which-key web-mode use-package undo-tree try projectile-rails org-bullets counsel-projectile color-theme-sanityinc-tomorrow auto-complete ace-window))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
