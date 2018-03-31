@@ -75,5 +75,5 @@ eval $(keychain --eval id_rsa)
 
 # Janky way to determine if this is a VM and I should connect to host X11
 if [ -f ~/this-is-a-vm ]; then
-  export DISPLAY=192.168.15.14:0.0
+  export DISPLAY=192.168.15.10:0.0
 fi
