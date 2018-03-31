@@ -6,3 +6,6 @@ sudo pacman -S terminator emacs ttf-dejavu
 # the terminal to see if I'm running a VM, so cowboy we go.
 
 touch ~/this-is-a-vm
+
+sudo systemctl enable sshd.service
+sudo systemctl start sshd.service

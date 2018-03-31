@@ -48,4 +48,9 @@ pacstrap /mnt base base-devel
 # fstab
 genfstab -U /mnt >> /mnt/etc/fstab
 
+wget https://raw.githubusercontent.com/rafamoreira/dotfiles/master/bootstrap/arch/sys-install/post-chroot-install.sh /mnt/root/post-chroot-install.sh
+chmod +x /mnt/root/post-chroot-install.sh
+wgte https://raw.githubusercontent.com/rafamoreira/dotfiles/master/bootstrap/arch/sys-install/first-boot-install.sh /mnt/root/first-boot-install.sh
+chmod +x /mnt/root/first-boot-install.sh
+
 arch-chroot /mnt

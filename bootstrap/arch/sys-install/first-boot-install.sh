@@ -1,7 +1,7 @@
 #!/bin/bash
 # 
 pacman -Syu
-pacman -S zsh git
+pacman -S zsh git stow
 
 echo "type username: "
 read user
