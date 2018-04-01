@@ -6,7 +6,7 @@ sed -i 's/^#en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen
 sed -i 's/^#pt_BR.UTF-8 UTF-8/pt_BR.UTF-8 UTF-8/' /etc/locale.gen
 locale-gen
 echo "LANG=en_US.UTF-8" >> /etc/locale.conf
-echo "KEYMAP=us-acentos" >> /etc/vconsole.conf
+echo "KEYMAP=dvorak" >> /etc/vconsole.conf
 echo "127.0.0.1	localhost" >> /etc/hosts
 echo "::1 localhost" >> /etc/hosts
 echo "127.0.1.1 jupiter-arch.rafaelmoreira.org jupiter-arch" >> /etc/hosts
