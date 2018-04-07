@@ -7,7 +7,7 @@ loadkeys colemak
 timedatectl set-ntp true
 
 echo "danger ZONE "
-echo "vmware || physical? "
+echo "vmware || hyper-v || physical? "
 
 read mtype
 if [ $mtype == "vmware" ]
