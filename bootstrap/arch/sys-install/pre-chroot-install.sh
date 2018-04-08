@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # load the correct keymap
-loadkeys colemak
+loadkeys us-acentos
 
 # set time and date
 timedatectl set-ntp true
