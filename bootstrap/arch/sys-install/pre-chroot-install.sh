@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # load the correct keymap
-loadkeys us-acentos
+loadkeys br-abnt2
 
 # set time and date
 timedatectl set-ntp true
