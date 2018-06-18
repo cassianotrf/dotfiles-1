@@ -18,4 +18,6 @@ sudo apt install \
   cmake \
   python-dev \
   python3-dev \
-  libpq-dev
+  libpq-dev \
+  zsh \
+  stow 
