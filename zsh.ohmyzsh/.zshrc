@@ -80,3 +80,4 @@ fi
 
 alias rds_dump="pg_dump -h antonov.mobbiz.com.br -U gigaservices -F c -v"
 alias easy_restore="pg_restore -h 127.0.0.1 -U postgres -x -c -v -O -d "
+alias be="bundle exec"
