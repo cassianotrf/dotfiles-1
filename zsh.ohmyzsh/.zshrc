@@ -80,9 +80,13 @@ fi
 
 alias rds_dump="pg_dump -h antonov.mobbiz.com.br -U gigaservices -F c -v"
 alias easy_restore="pg_restore -h 127.0.0.1 -U postgres -x -c -v -O -d "
-alias be="bundle exec"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 alias abnt2="setxkbmap -model abnt2 -layout br -variant abnt2"
 
+alias lock="xscreensaver-command -lock"
+
+# ruby / rails aliases
+alias be="bundle exec"
+alias zrdm="zeus rake db:migrate && zeus rake db:test:prepare"
