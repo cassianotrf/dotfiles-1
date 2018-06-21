@@ -22,6 +22,8 @@ Plug 'tpope/vim-eunuch'
 Plug 'w0rp/ale'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-dispatch'
+Plug 'junegunn/vim-easy-align'
 
 " Initialize plugin system
 call plug#end()
@@ -253,4 +255,9 @@ let g:ctrlp_working_path_mode = 0
 "map <Leader>a :call RunAllSpecs()<CR>
 ""Dispatch FTW
 "let g:rspec_command = "Dispatch zeus rspec {spec}"
-"
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
