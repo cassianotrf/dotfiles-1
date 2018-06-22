@@ -40,9 +40,8 @@ fi
 
 
 # pacstrap
-curl -o /etc/pacman.d/mirrorgen "https://raw.githubusercontent.com/rafamoreira/dotfiles/master/bootstrap/arch/sys-install/mirrorlist"
-sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorgen
-rankmirrors -n 6 /etc/pacman.d/mirrorgen > /etc/pacman.d/mirrorlist
+curl -o /etc/pacman.d/mirrorlist "https://raw.githubusercontent.com/rafamoreira/dotfiles/master/bootstrap/arch/sys-install/mirrorlist"
+sed -i 's/^#Server/Server/' /etc/pacman.d/mirrorlist
 pacstrap /mnt base base-devel
 
 # fstab
