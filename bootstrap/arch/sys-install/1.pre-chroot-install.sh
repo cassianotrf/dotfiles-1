@@ -16,7 +16,7 @@ then
   # vmware settings
   mkfs.ext4 /dev/sda1
   mount /dev/sda1 /mnt
-elif [ $mtype == "hyper-v" ]
+elif [ $mtype == "sda" ]
 then
 	mkfs.fat -F32 /dev/sda1
 	mkfs.ext4 /dev/sda2
@@ -25,7 +25,7 @@ then
 	mount /dev/sda2 /mnt
 	mkdir /mnt/boot
 	mount /dev/sda1 /mnt/boot
-elif [ $mtype == "physical" ]
+elif [ $mtype == "nvme" ]
 then
   mkfs.fat -F32 /dev/nvme0n1p1
   mkfs.ext4 /dev/nvme0n1p2
