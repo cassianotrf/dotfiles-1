@@ -24,6 +24,7 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'junegunn/vim-easy-align'
+Plug 'wakatime/vim-wakatime'
 
 " Initialize plugin system
 call plug#end()

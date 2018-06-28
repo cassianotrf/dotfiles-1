@@ -2,7 +2,7 @@
 [user]
 # Please adapt and uncomment the following lines:
 	name = Rafael Moreira
-	email = rafael@rafaelmoreira.org
+	email = rafael@rafaelmoreira.org 
 [alias]
 	po = push origin master
 [github]
